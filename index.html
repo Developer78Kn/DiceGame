@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Game by Ollé Zsolt</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left">
+        <h2>Player 1</h2>
+        <h3>Score: </h3><p class="score1">0</p>
+        <h3>History:</h3>
+        <ul class="history1">
+          <!-- Ide jön majd JS-el az li teg -->
+        </ul>
+      </div>
+      <div class="middle">
+        <h1>Next player</h1>
+        <p class="nextPlayer"></p>
+        <img class="img" src="images/dice1.png" alt="dice">
+        <button class="roll" onclick="dob()">Roll the dice</button>
+        <br/>
+        <!-- <button class="newGame" onclick="newGame()">Start new Game</button> -->
+        <button class="newGame" onclick="location.reload()">Start new Game</button>
+
+      </div>
+      <div class="right">
+        <h2>Player 2</h2>
+        <h3>Score: </h3><p class="score2">0</p>
+        <h3>History:</h3>
+        <ul class="history2">
+            <!-- Ide jön majd JS-el az li teg -->
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="index.js" charset="utf-8"></script>
+</html>
